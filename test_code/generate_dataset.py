@@ -61,6 +61,8 @@ set_gs = ['phantom03', 'phantom05', 'phantom47', 'phantom93']  # 400~1024
 
 for video_sets in set2:
     id = video_sets
+
+    # update to masked and labeled dataset paths
     imgdir = "/home/user-guo/data/drone-dataset/phantom-dataset/images/" + id + "/"
     annodir = '/home/user-guo/data/drone-dataset/phantom-dataset/Annotations/' + id + '/'
     maskdir = '/home/user-guo/data/drone-dataset/phantom-dataset/mask22/' + id + '/'

@@ -3,7 +3,7 @@ import os
 from os import getcwd
 
 sets = ['train', 'val', 'test']
-classes = ["UAV"]
+classes = ["Drone"]
 abs_path = os.getcwd()
 print(abs_path)
 

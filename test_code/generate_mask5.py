@@ -35,7 +35,7 @@ set0 = ['phantom02', 'phantom03', 'phantom04', 'phantom05', 'phantom08', 'phanto
 
 for video_sets in set0:
     video_name = video_sets
-    cap = cv2.VideoCapture('/home/user-guo/data/ARD-MAV/test_videos/' + video_name + '.mp4')
+    cap = cv2.VideoCapture('/path/to/dataset/videos' + video_name + '.mp4') # path to dataset videos
     lastFrame1 = None
     lastFrame2 = None
     lastFrame3 = None

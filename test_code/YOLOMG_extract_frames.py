@@ -2,8 +2,8 @@ import cv2
 import os
 
 # 设置视频文件夹路径
-video_folder = './videos/'
-image_folder = './images/'
+video_folder = './videos/' # path to dataset videos
+image_folder = './images/' # path to save extracted frames aka phantom-dataset/images/
 video_files = [f for f in os.listdir(video_folder) if f.endswith('.mp4')]
 
 # 遍历所有视频文件
